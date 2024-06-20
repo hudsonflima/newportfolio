@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -18,7 +19,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    
     <html lang="en">
+      <SpeedInsights/>
       <body className='bg-primary text-white leading-loose'>
         <main className={jetbrainsMono.className}>
           <Header />
