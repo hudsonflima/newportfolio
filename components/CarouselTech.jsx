@@ -11,7 +11,7 @@ const iconSize = 70;
 
 const technologies = [
     {
-        title: 'Infrastructure',
+        title: 'Infraestrutura',
         icons: [
             { Icon: SiMicrosoft, name: 'Microsoft', color: '#22A7F0', hoverColor: '#3498db' },
             { Icon: SiCentos, name: 'CentOS', color: '#7f8c8d', hoverColor: '#bdc3c7' },
@@ -20,7 +20,7 @@ const technologies = [
         ],
     },
     {
-        title: 'Web Development',
+        title: 'Desenvolvimento Web',
         icons: [
             { Icon: SiHtml5, name: 'HTML5', color: '#e74c3c', hoverColor: '#c0392b' },
             { Icon: SiCss3, name: 'CSS3', color: '#3498db', hoverColor: '#2980b9' },
@@ -33,7 +33,7 @@ const technologies = [
         ],
     },
     {
-        title: 'Databases',
+        title: 'Bancos de Dados',
         icons: [
             { Icon: SiMysql, name: 'MySQL', color: '#f1c40f', hoverColor: '#f39c12' },
             { Icon: SiPostgresql, name: 'PostgreSQL', color: '#3498db', hoverColor: '#2980b9' },
@@ -44,7 +44,7 @@ const technologies = [
         ],
     },
     {
-        title: 'Programming Languages & Backend',
+        title: 'Linguagens de Programação e Backend',
         icons: [
             { Icon: SiNodedotjs, name: 'Node.js', color: '#2ecc71', hoverColor: '#27ae60' },
             { Icon: SiCsharp, name: 'C#', color: '#9b59b6', hoverColor: '#8e44ad' },
