@@ -6,6 +6,17 @@ import Socials from '@/components/Socials';
 import Stats from '@/components/Stats';
 import CarouselTech from '@/components/CarouselTech';
 
+
+const handleDownload = () => {
+  const downloadLink = document.createElement('a');
+  downloadLink.href = '/assets/CV_Hudson_Lima.pdf';  // Substitua pelo caminho real para o seu arquivo PDF
+  downloadLink.download = 'CV_Hudson_Lima.pdf';        // Nome do arquivo para download
+  document.body.appendChild(downloadLink);
+  downloadLink.click();
+  document.body.removeChild(downloadLink);
+};
+
+
 const Home = () => {
   return (
     <section className="h-full">
@@ -22,7 +33,13 @@ const Home = () => {
               Minha expertise inclui análise de dados para extrair insights, design e implementação de soluções de BI, desenvolvimento de consultas SQL e bancos de dados, gerenciamento de infraestrutura para garantir ambientes robustos de TI e construção de aplicações web full stack do frontend ao backend.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+              <Button
+                href="/path/para/seu-arquivo.pdf"  // Substitua pelo caminho correto do seu arquivo PDF
+                download="seu-arquivo.pdf"        // Nome do arquivo para download
+                onClick={handleDownload}
+                variant="outline"
+                size="lg"
+                className="uppercase flex items-center gap-2">
                 <span>Baixar CV</span>
                 <FiDownload className="text-xl" />
               </Button>
@@ -32,7 +49,7 @@ const Home = () => {
           <div className="flex-1 mt-12 xl:mt-0 xl:ml-8">
             <Photo />
           </div>
-          
+
         </div>
       </div>
       <Stats />
