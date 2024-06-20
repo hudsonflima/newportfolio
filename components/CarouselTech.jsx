@@ -48,7 +48,7 @@ const technologies = [
         icons: [
             { Icon: SiNodedotjs, name: 'Node.js', color: '#2ecc71', hoverColor: '#27ae60' },
             { Icon: SiCsharp, name: 'C#', color: '#9b59b6', hoverColor: '#8e44ad' },
-            { Icon: SiPhp, name: 'PHP', color: '#9b59b6', hoverColor: '#8e44ad' },
+            { Icon: SiPhp, name: 'PHP', color: '#787cb4', hoverColor: '#8e44ad' },
             { Icon: SiPython, name: 'Python', color: '#f1c40f', hoverColor: '#f39c12' }
         ],
     },
