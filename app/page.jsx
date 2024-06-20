@@ -34,8 +34,8 @@ const Home = () => {
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
-                href="/path/para/seu-arquivo.pdf"  // Substitua pelo caminho correto do seu arquivo PDF
-                download="seu-arquivo.pdf"        // Nome do arquivo para download
+                href="/path/para/CV_Hudson_Lima.pdf"  // Substitua pelo caminho correto do seu arquivo PDF
+                download="CV_Hudson_Lima.pdf"        // Nome do arquivo para download
                 onClick={handleDownload}
                 variant="outline"
                 size="lg"
